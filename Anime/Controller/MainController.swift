@@ -169,7 +169,7 @@ class MainController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let position = sender.tag
         let data = menuList[position]
-        //!data.isFav
+        
         if sender.isSelected {
             sender.setImage(UIImage(named: "starlight.png"),for: UIControl.State.selected)
             
